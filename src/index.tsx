@@ -49,10 +49,9 @@ function App() {
 
       <motion.div
         className={classes.inner}
-        animate={{
-          ...animationProps,
-          
-        }}
+        animate={
+          animationProps
+        }
         transition={{
           "duration": 2,
           "delay": 1
